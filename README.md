@@ -15,6 +15,11 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 ```sh
 npm install
 ```
+### Run the API
+
+```sh
+npx json-server --watch db.json --port 3001
+```
 
 ### Compile and Hot-Reload for Development
 

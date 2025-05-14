@@ -1,0 +1,77 @@
+{
+  "postulations": [
+    {
+      "id": "1",
+      "title": "Rediseño del Website",
+      "pending": 2,
+      "createdAt": "hace 1 semana",
+      "applicants": [
+        "1",
+        "2"
+      ],
+      "selectedStudentId": null
+    },
+    {
+      "id": "2",
+      "title": "Data Base Análisis",
+      "pending": 1,
+      "createdAt": "hace 1 semana",
+      "applicants": [
+        3
+      ]
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "Jair Quijada",
+      "career": "Ingeniería de Software",
+      "rating": 4.8,
+      "skills": [
+        "Python",
+        "MatLab"
+      ],
+      "avatar": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimcEB3HOmiq8tTU07d557Kj8RALi_8uZr9TMiYAyb7aK5v09UkK7owmIePuEg1Z3WKzLqVdbGouKzcP_F0j2AP6G3L2uHvZsjari05hhzdZgXwb4W5JmL5i3fVsyrvc9zO-slcUvRlTwJsfMhQih22lkPXRcXz8E08meTdQ1Hfl4mo1-cU3Grr9bY0eT0/s214/image%207.png",
+      "portfolioUrl": "https://example.com/portafolio-jair",
+      "reputation": [
+        {
+          "project": "Aplicación de Finanzas",
+          "company": "Financiera Data",
+          "comment": "Excelente trabajo, muy responsable",
+          "score": 4.8
+        },
+        {
+          "project": "Rediseño del Website",
+          "company": "Tech Solutions",
+          "comment": "Buen desempeño, muy eficaz con sus entregas",
+          "score": 4.7
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Amanda García",
+      "career": "Marketing",
+      "rating": 4.4,
+      "skills": [
+        "Social Media"
+      ],
+      "avatar": "https://blogger.googleusercontent.com/img/a/AVvXsEhkZ_7i5Hm6tP1P7tyoS6NQCOcUMDo8ey_YFphYGzUQNjX7dZUhK0FYNnjOpuxqBICd3nNkr053Obt5tyYnM6q7feFvzEk-bN__qtkwhskmyajtJ-JGiC31kSMT2vPLV_OkQFt0bu6k5T6rBiiRNElm0XtHxQ8x7HWHSAiEoTXt9wuUuTIC7tQ62J7HOKI",
+      "portfolioUrl": "https://example.com/portafolio-amanda",
+      "reputation": []
+    },
+    {
+      "id": "3",
+      "name": "Carlos León",
+      "career": "Ingeniería Industrial",
+      "rating": 4.6,
+      "skills": [
+        "Excel",
+        "SQL"
+      ],
+      "avatar": "https://blogger.googleusercontent.com/img/a/AVvXsEgGNquJIFWCA--HihsJb6B6s6pLt8ktS-YOxD10LTG7NPGFbGXS5Xp_ZgE3ikleNeRLaPlDJJltPxBaRyI5_IY3funIhzLxNY6VW43Bgc9CCrA5tUzkfUrdsT8ConTTmwYnuGsapnSAbIruM7PxR7fEpHr-5os72ybeJ9KqbPO3wwDGd7CCxsxGu-boRs0",
+      "portfolioUrl": "https://example.com/portafolio-carlos",
+      "reputation": []
+    }
+  ]
+}
