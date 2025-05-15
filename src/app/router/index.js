@@ -6,11 +6,19 @@ import ManagerProjectsView from '@/modules/projects/views/manager-projects-view.
 
 // Layouts
 import ManagerLayout from '@/shared/layouts/manager-layout.component.vue'
+import RegisterPage from "@/modules/auth/pages/register-page.vue";
+import LoginPage from "@/modules/auth/pages/login-page.vue";
+import RecoverPasswordPage from "@/modules/auth/pages/recover-password-page.vue";
+
+
+
 
 const routes = [
     {
         path: '/',
         redirect: '/manager/projects'
+=======
+        redirect: '/register'
     },
     {
         path: '/manager',
@@ -60,7 +68,28 @@ const routes = [
                 component: () => import('@/modules/users/views/edit-company-view.component.vue')
             }
         ]
+    },
+    { path: '/register',
+        name: 'register',
+        component: RegisterPage,
+        meta: { title: 'Register' }
+
+
+    },
+    {
+        path: '/login',
+        name: 'login',
+        component: LoginPage,
+        meta: { title: 'Login' }
+    },
+    {
+        path: '/recover-password',
+        name: 'recover-password',
+        component: RecoverPasswordPage,
+        meta: { title: 'Recover Password' }
     }
+
+
 ]
 
 const router = createRouter({
