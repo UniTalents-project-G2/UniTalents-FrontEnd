@@ -30,7 +30,19 @@ const routes = [
                 path: 'applications/:applicationId/students/:studentId',
                 name: 'ManagerStudentReputation',
                 component: () => import('@/modules/users/views/student-reputation-view.component.vue')
+            },
+            {
+                path: 'company',
+                name: 'ManagerCompanyView',
+                component: () => import('@/modules/users/views/manager-company-view.component.vue')
+            },
+            {
+                path: 'company/edit',
+                name: 'EditCompanyView',
+                component: () => import('@/modules/users/views/edit-company-view.component.vue')
             }
+
+
 
         ]
     }
