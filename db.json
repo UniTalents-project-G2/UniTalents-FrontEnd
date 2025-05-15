@@ -149,5 +149,50 @@
       ],
       "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnTy-L0qr7h9CcJeKZXqNM9z7ttzRACaVD_w&s"
     }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Rediseño del Website",
+      "manager": "Martin Perez",
+      "status": "En curso",
+      "dueDate": "2025-06-16",
+      "description": "Buscamos un diseñador web para modernizar nuestro sitio corporativo; mejorar la experiencia de usuario, optimizar la navegación y garantizar plena responsividad en todas las disposiciones. Contamos con guía de estilo y contenidos actualizados: se espera entrega de maquetación HTML/CSS limpia y accesible.",
+      "skills": [
+        "Javascript",
+        "HTML",
+        "CSS"
+      ],
+      "members": [
+        "Jair Quijada"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Análisis de la DataBase",
+      "manager": "Laura Manco",
+      "status": "Finalizado",
+      "dueDate": "2025-07-25",
+      "description": "Necesitamos analizar y optimizar nuestra base de datos para mejorar el rendimiento del sistema.",
+      "skills": [
+        "SQL",
+        "MySQL",
+        "Database Design"
+      ],
+      "members": []
+    },
+    {
+      "id": "7853",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "status": "En curso",
+      "dueDate": "2025-06-28",
+      "manager": "Alexander Arnold",
+      "title": "Desarrollo Aplicaciones Web",
+      "description": "Curso enfocada en desarrolladores jovenes para desarrollo de aplicaciones web"
+    }
   ]
 }
