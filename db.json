@@ -124,18 +124,17 @@
       "members": []
     },
     {
-      "id": "6b8a",
-      "title": "Desarrollo Web",
-      "manager": "Alexandre Pato",
-      "status": "En curso",
-      "dueDate": "2025-06-30",
-      "description": "Curso para principiantes en el desarrollo de tecnologias moviles",
+      "id": "7853",
       "skills": [
         "HTML",
         "CSS",
         "JavaScript"
       ],
-      "members": []
+      "status": "En curso",
+      "dueDate": "2025-06-28",
+      "manager": "Alexander Arnold",
+      "title": "Desarrollo Aplicaciones Web",
+      "description": "Curso enfocada en desarrolladores jovenes para desarrollo de aplicaciones web"
     }
   ]
 }

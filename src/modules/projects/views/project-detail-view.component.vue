@@ -87,12 +87,17 @@ export default {
       }
     },
     addSkill() {
-      const skill = this.newSkill.trim();
-      if (skill && !this.editData.skills.includes(skill)) {
-        this.editData.skills = [...this.editData.skills, skill];
-        this.newSkill = '';
+      if (!this.newSkill.trim()) return;
+      if (!this.editData.skills) {
+        this.editData.skills = [];
       }
-    }
+
+      const skill = this.newSkill.trim();
+      if (!this.editData.skills.includes(skill)) {
+        this.editData.skills.push(skill);
+        this.newSkill = "";
+      }
+    },
   }
 }
 </script>
@@ -189,7 +194,7 @@ export default {
               @keyup.enter="addSkill"
               placeholder="Ej: Vue.js, MongoDB"
           >
-          <button @click="addSkill">+</button>
+          <button @click.prevent="addSkill" class="add-skill-btn">+</button>
         </div>
       </div>
 
@@ -328,13 +333,18 @@ export default {
   flex: 1;
 }
 
-.add-skill button {
+.add-skill-btn {
   background: #FFD479;
   border: none;
   border-radius: 6px;
   padding: 0 1rem;
   cursor: pointer;
   font-weight: bold;
+  font-size: 1rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .form-actions {
