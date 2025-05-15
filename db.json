@@ -73,5 +73,23 @@
       "portfolioUrl": "https://example.com/portafolio-carlos",
       "reputation": []
     }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "InnovateTech",
+      "creator": "Alexander Dávila",
+      "location": "Lima, Perú",
+      "focus": "Procesos de Fabricación",
+      "email": "innovatetech-info@gmail.com",
+      "phone": "+51 944637126",
+      "rating": 4.9,
+      "technologies": [
+        "Marketing",
+        "Software",
+        "Sistemas"
+      ],
+      "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnTy-L0qr7h9CcJeKZXqNM9z7ttzRACaVD_w&s"
+    }
   ]
 }
