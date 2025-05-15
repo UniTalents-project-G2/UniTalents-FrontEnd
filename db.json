@@ -1,4 +1,62 @@
 {
+  "fields": [
+    {
+      "id": 1,
+      "name": "Software Development"
+    },
+    {
+      "id": 2,
+      "name": "Graphic Design"
+    },
+    {
+      "id": 3,
+      "name": "Digital Marketing"
+    },
+    {
+      "id": 4,
+      "name": "Content Writing"
+    },
+    {
+      "id": 5,
+      "name": "Video Editing"
+    },
+    {
+      "id": 6,
+      "name": "Translation"
+    },
+    {
+      "id": 7,
+      "name": "UI/UX Design"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Lucía",
+      "lastName": "Gómez",
+      "email": "lucia@mail.com",
+      "password": "abc",
+      "role": "student",
+      "field": "Diseño Gráfico"
+    },
+    {
+      "id": 2,
+      "firstName": "Carlos",
+      "lastName": "Pérez",
+      "email": "carlos@mail.com",
+      "password": "abcd",
+      "role": "manager",
+      "field": "Informática"
+    },
+    {
+      "name": "student",
+      "email": "student123@gmail.com",
+      "password": "student",
+      "fieldId": 1,
+      "role": "student",
+      "id": 10
+    }
+  ],
   "postulations": [
     {
       "id": "1",

@@ -5,11 +5,17 @@ import ManagerApplicationsView from '@/modules/applications/views/manager-applic
 
 // Layouts
 import ManagerLayout from '@/shared/layouts/manager-layout.component.vue'
+import RegisterPage from "@/modules/auth/pages/register-page.vue";
+import LoginPage from "@/modules/auth/pages/login-page.vue";
+import RecoverPasswordPage from "@/modules/auth/pages/recover-password-page.vue";
+
+
+
 
 const routes = [
     {
         path: '/',
-        redirect: '/manager/applications'
+        redirect: '/register'
     },
     {
         path: '/manager',
@@ -45,7 +51,28 @@ const routes = [
 
 
         ]
+    },
+    { path: '/register',
+        name: 'register',
+        component: RegisterPage,
+        meta: { title: 'Register' }
+
+
+    },
+    {
+        path: '/login',
+        name: 'login',
+        component: LoginPage,
+        meta: { title: 'Login' }
+    },
+    {
+        path: '/recover-password',
+        name: 'recover-password',
+        component: RecoverPasswordPage,
+        meta: { title: 'Recover Password' }
     }
+
+
 ]
 
 const router = createRouter({

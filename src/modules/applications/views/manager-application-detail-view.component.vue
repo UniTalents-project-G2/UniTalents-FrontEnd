@@ -44,7 +44,7 @@ export default {
     },
     handleViewReputation(student) {
       console.log('Ver reputación de:', student.name)
-      // Aquí luego llamaremos a un modal o componente
+
     }
   }
 }
