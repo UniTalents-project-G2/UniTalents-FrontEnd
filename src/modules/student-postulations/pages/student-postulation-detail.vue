@@ -1,5 +1,9 @@
 <template>
   <div class="project-detail-view">
+    <button @click="goBack" class="back-button">
+      <i class="pi pi-arrow-left"></i> Volver a postulaciones
+    </button>
+
     <div class="project-header">
       <h1>{{ project.title }}</h1>
       <span class="status-badge">{{ project.status }}</span>
@@ -49,9 +53,6 @@
       </div>
     </div>
 
-    <button @click="goBack" class="back-button">
-      <i class="pi pi-arrow-left"></i> Volver al portafolio
-    </button>
   </div>
 </template>
 
@@ -184,20 +185,18 @@ export default {
 }
 
 .back-button {
-  margin-top: 2rem;
-  background: #1C1F2B;
-  color: white;
+  background: none;
   border: none;
-  padding: 0.75rem 1.5rem;
-  border-radius: 6px;
-  cursor: pointer;
-  display: inline-flex;
+  color: #1C1F2B;
+  font-size: 1rem;
+  display: flex;
   align-items: center;
   gap: 0.5rem;
-  transition: background 0.3s;
+  cursor: pointer;
+  margin-bottom: 1rem;
 }
 
 .back-button:hover {
-  background: #2E3440;
+  text-decoration: underline;
 }
 </style>
