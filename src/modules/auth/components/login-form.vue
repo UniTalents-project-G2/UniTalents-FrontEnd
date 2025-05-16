@@ -81,7 +81,7 @@ export default {
         this.$emit('success');
         const targetRoute = user.role === 'manager'
             ? '/manager/applications'
-            : '/students/opportunities';
+            : '/student/portfolio';
 
         setTimeout(() => {
           this.router.push(targetRoute);

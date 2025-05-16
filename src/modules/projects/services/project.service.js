@@ -1,6 +1,9 @@
 import http from '@/shared/services/http.instance'
 import { Project } from '../models/project.entity'
 
+
+
+
 export async function getAllProjects() {
     const res = await http.get('/projects')
     return res.data.map(p => new Project(p))

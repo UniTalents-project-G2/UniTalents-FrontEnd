@@ -4,22 +4,23 @@ import { createRouter, createWebHistory } from 'vue-router'
 import ManagerApplicationsView from '@/modules/applications/views/manager-applications-view.component.vue'
 import ManagerProjectsView from '@/modules/projects/views/manager-projects-view.component.vue'
 
-// Layouts
-import ManagerLayout from '@/shared/layouts/manager-layout.component.vue'
+
+
 import RegisterPage from "@/modules/auth/pages/register-page.vue";
 import LoginPage from "@/modules/auth/pages/login-page.vue";
 import RecoverPasswordPage from "@/modules/auth/pages/recover-password-page.vue";
+import projectDetail from "@/modules/portfolio/pages/project-detail.vue";
 
+
+// Layouts
+import ManagerLayout from '@/shared/layouts/manager-layout.component.vue'
+import StudentLayout from '@/shared/layouts/student-layout.component.vue'
+import PortfolioPage from "@/modules/portfolio/pages/portfolio-page.vue";
 
 
 
 const routes = [
-    {
-        path: '/',
-        redirect: '/manager/projects'
-=======
-        redirect: '/register'
-    },
+
     {
         path: '/manager',
         component: ManagerLayout,
@@ -69,6 +70,46 @@ const routes = [
             }
         ]
     },
+
+
+    {
+        path: '/student',
+        component: StudentLayout,
+        children: [
+            {
+                path: 'opportunities',
+                name: 'StudentOpportunities',
+                component: ''
+            },
+            {
+                path: 'portfolio',
+                name: 'StudentPortfolio',
+                component: () => import('@/modules/portfolio/pages/portfolio-page.vue')
+            },
+            {
+                path: '/portfolio/:id',
+                name: 'StudentProjectDetail',
+                component: () => import('@/modules/portfolio/pages/project-detail.vue'),
+                props: true
+            },
+
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+    { path: '/',
+        redirect: '/login'
+    },
+
+
     { path: '/register',
         name: 'register',
         component: RegisterPage,
