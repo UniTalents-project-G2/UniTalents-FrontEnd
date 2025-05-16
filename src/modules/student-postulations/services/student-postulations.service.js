@@ -54,6 +54,21 @@ export class StudentPostulationService {
         }
     }
 
+    /**
+     * Creates a new student postulation
+     * @param {Object} postulationData - Data for the new postulation
+     * @returns {Promise<StudentPostulation>} The created postulation
+     */
+    async createPostulation(postulationData) {
+        try {
+            const response = await httpInstance.post(this.resourceEndpoint, postulationData);
+            return new StudentPostulation(response.data);
+        } catch (error) {
+            console.error("Error creating postulation:", error);
+            throw error;
+        }
+    }
+
 
 
 

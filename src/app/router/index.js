@@ -76,7 +76,18 @@ const routes = [
             {
                 path: 'opportunities',
                 name: 'StudentOpportunities',
-                component: ''
+                component: () => import('@/modules/opportunities/views/opportunity-list.page.vue')
+            },
+            {
+                path: 'opportunities/:id',
+                name: 'StudentOpportunityDetail',
+                component: () => import('@/modules/opportunities/views/opportunity-detail.page.vue'),
+                props: true
+            },
+            {
+                path: 'companies/:id',
+                name: 'StudentCompanyDetail',
+                component: () => import('@/modules/companies/views/company-detail.page.vue')
             },
             {
                 path: 'portfolio',
