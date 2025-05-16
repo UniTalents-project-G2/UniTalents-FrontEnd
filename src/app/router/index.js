@@ -9,14 +9,11 @@ import ManagerProjectsView from '@/modules/projects/views/manager-projects-view.
 import RegisterPage from "@/modules/auth/pages/register-page.vue";
 import LoginPage from "@/modules/auth/pages/login-page.vue";
 import RecoverPasswordPage from "@/modules/auth/pages/recover-password-page.vue";
-import projectDetail from "@/modules/portfolio/pages/project-detail.vue";
 
 
 // Layouts
 import ManagerLayout from '@/shared/layouts/manager-layout.component.vue'
 import StudentLayout from '@/shared/layouts/student-layout.component.vue'
-import PortfolioPage from "@/modules/portfolio/pages/portfolio-page.vue";
-
 
 
 const routes = [
@@ -92,6 +89,22 @@ const routes = [
                 component: () => import('@/modules/portfolio/pages/project-detail.vue'),
                 props: true
             },
+            {
+                path: 'postulations',
+                name: 'StudentPostulations',
+                component: () => import('@/modules/student-postulations/pages/student-postulations-page.vue')
+            },
+            {
+                path: '/postulations/finished/:id',
+                name: 'FinishedProjectDetail',
+                component: () => import('@/modules/student-postulations/pages/finished-project-detail.vue'),
+            },
+            {
+                path: '/postulations/student/:id',
+                name: 'StudentPostulationDetail',
+                component: () => import('@/modules/student-postulations/pages/student-postulation-detail.vue'),
+            }
+
 
         ]
     },

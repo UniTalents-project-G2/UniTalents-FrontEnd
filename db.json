@@ -194,5 +194,19 @@
       "title": "Desarrollo Aplicaciones Web",
       "description": "Curso enfocada en desarrolladores jovenes para desarrollo de aplicaciones web"
     }
+  ],
+  "studentPostulations": [
+    {
+      "id": "1",
+      "projectId": "1",
+      "postulationStatus": "en_curso"
+    },
+    {
+      "id": "2",
+      "projectId": "2",
+      "postulationStatus": "finalizado"
+    }
   ]
+
+
 }
