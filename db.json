@@ -150,6 +150,60 @@
       "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnTy-L0qr7h9CcJeKZXqNM9z7ttzRACaVD_w&s"
     }
   ],
+  "opportunities": [
+    {
+      "id": "1",
+      "title": "Front-End Developer Intern",
+      "description": "Desarrolla componentes visuales con Vue.js.",
+      "technologies": [
+        "Vue",
+        "JavaScript",
+        "CSS"
+      ],
+      "budget": 300,
+      "datePublished": "2025-05-15",
+      "companyId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Data Analysis Project",
+      "description": "Apoya en el análisis de datos con Python y Pandas.",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "SQL"
+      ],
+      "budget": 1500,
+      "datePublished": "2025-05-12",
+      "companyId": "1"
+    },
+    {
+      "id": "3",
+      "title": "UX Research Assistant",
+      "description": "Investiga necesidades de usuarios y mejora la experiencia.",
+      "technologies": [
+        "Figma",
+        "Entrevistas",
+        "Análisis UX"
+      ],
+      "budget": 500,
+      "datePublished": "2025-05-10",
+      "companyId": "1"
+    },
+    {
+      "id": "4",
+      "title": "Desarrollador Backend Junior",
+      "description": "Implementa APIs RESTful con Node.js y Express.",
+      "technologies": [
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ],
+      "budget": 1200,
+      "datePublished": "2025-05-13",
+      "companyId": "1"
+    }
+  ],
   "projects": [
     {
       "id": "1",
@@ -205,8 +259,11 @@
       "id": "2",
       "projectId": "2",
       "postulationStatus": "finalizado"
+    },
+    {
+      "id": "3b9e",
+      "projectId": "1",
+      "postulationStatus": "pending"
     }
   ]
-
-
 }

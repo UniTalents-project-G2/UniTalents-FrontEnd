@@ -80,8 +80,8 @@ export default {
 
         this.$emit('success');
         const targetRoute = user.role === 'manager'
-            ? '/manager/applications'
-            : '/student/portfolio';
+            ? '/manager/projects'
+            : '/student/opportunities';
 
         setTimeout(() => {
           this.router.push(targetRoute);
