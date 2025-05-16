@@ -1,0 +1,269 @@
+{
+  "fields": [
+    {
+      "id": 1,
+      "name": "Software Development"
+    },
+    {
+      "id": 2,
+      "name": "Graphic Design"
+    },
+    {
+      "id": 3,
+      "name": "Digital Marketing"
+    },
+    {
+      "id": 4,
+      "name": "Content Writing"
+    },
+    {
+      "id": 5,
+      "name": "Video Editing"
+    },
+    {
+      "id": 6,
+      "name": "Translation"
+    },
+    {
+      "id": 7,
+      "name": "UI/UX Design"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Lucía",
+      "lastName": "Gómez",
+      "email": "lucia@mail.com",
+      "password": "abc",
+      "role": "student",
+      "field": "Diseño Gráfico"
+    },
+    {
+      "id": 2,
+      "firstName": "Carlos",
+      "lastName": "Pérez",
+      "email": "carlos@mail.com",
+      "password": "abcd",
+      "role": "manager",
+      "field": "Informática"
+    },
+    {
+      "name": "student",
+      "email": "student123@gmail.com",
+      "password": "student",
+      "fieldId": 1,
+      "role": "student",
+      "id": 10
+    }
+  ],
+  "postulations": [
+    {
+      "id": "1",
+      "title": "Rediseño del Website",
+      "pending": 2,
+      "createdAt": "hace 1 semana",
+      "applicants": [
+        "1",
+        "2"
+      ],
+      "selectedStudentId": null
+    },
+    {
+      "id": "2",
+      "title": "Data Base Análisis",
+      "pending": 1,
+      "createdAt": "hace 1 semana",
+      "applicants": [
+        3
+      ]
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "Jair Quijada",
+      "career": "Ingeniería de Software",
+      "rating": 4.8,
+      "skills": [
+        "Python",
+        "MatLab"
+      ],
+      "avatar": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimcEB3HOmiq8tTU07d557Kj8RALi_8uZr9TMiYAyb7aK5v09UkK7owmIePuEg1Z3WKzLqVdbGouKzcP_F0j2AP6G3L2uHvZsjari05hhzdZgXwb4W5JmL5i3fVsyrvc9zO-slcUvRlTwJsfMhQih22lkPXRcXz8E08meTdQ1Hfl4mo1-cU3Grr9bY0eT0/s214/image%207.png",
+      "portfolioUrl": "https://example.com/portafolio-jair",
+      "reputation": [
+        {
+          "project": "Aplicación de Finanzas",
+          "company": "Financiera Data",
+          "comment": "Excelente trabajo, muy responsable",
+          "score": 4.8
+        },
+        {
+          "project": "Rediseño del Website",
+          "company": "Tech Solutions",
+          "comment": "Buen desempeño, muy eficaz con sus entregas",
+          "score": 4.7
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Amanda García",
+      "career": "Marketing",
+      "rating": 4.4,
+      "skills": [
+        "Social Media"
+      ],
+      "avatar": "https://blogger.googleusercontent.com/img/a/AVvXsEhkZ_7i5Hm6tP1P7tyoS6NQCOcUMDo8ey_YFphYGzUQNjX7dZUhK0FYNnjOpuxqBICd3nNkr053Obt5tyYnM6q7feFvzEk-bN__qtkwhskmyajtJ-JGiC31kSMT2vPLV_OkQFt0bu6k5T6rBiiRNElm0XtHxQ8x7HWHSAiEoTXt9wuUuTIC7tQ62J7HOKI",
+      "portfolioUrl": "https://example.com/portafolio-amanda",
+      "reputation": []
+    },
+    {
+      "id": "3",
+      "name": "Carlos León",
+      "career": "Ingeniería Industrial",
+      "rating": 4.6,
+      "skills": [
+        "Excel",
+        "SQL"
+      ],
+      "avatar": "https://blogger.googleusercontent.com/img/a/AVvXsEgGNquJIFWCA--HihsJb6B6s6pLt8ktS-YOxD10LTG7NPGFbGXS5Xp_ZgE3ikleNeRLaPlDJJltPxBaRyI5_IY3funIhzLxNY6VW43Bgc9CCrA5tUzkfUrdsT8ConTTmwYnuGsapnSAbIruM7PxR7fEpHr-5os72ybeJ9KqbPO3wwDGd7CCxsxGu-boRs0",
+      "portfolioUrl": "https://example.com/portafolio-carlos",
+      "reputation": []
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "InnovateTech",
+      "creator": "Alexander Dávila",
+      "location": "Lima, Perú",
+      "focus": "Procesos de Fabricación",
+      "email": "innovatetech-info@gmail.com",
+      "phone": "+51 944637126",
+      "rating": 4.9,
+      "technologies": [
+        "Marketing",
+        "Software",
+        "Sistemas"
+      ],
+      "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnTy-L0qr7h9CcJeKZXqNM9z7ttzRACaVD_w&s"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "1",
+      "title": "Front-End Developer Intern",
+      "description": "Desarrolla componentes visuales con Vue.js.",
+      "technologies": [
+        "Vue",
+        "JavaScript",
+        "CSS"
+      ],
+      "budget": 300,
+      "datePublished": "2025-05-15",
+      "companyId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Data Analysis Project",
+      "description": "Apoya en el análisis de datos con Python y Pandas.",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "SQL"
+      ],
+      "budget": 1500,
+      "datePublished": "2025-05-12",
+      "companyId": "1"
+    },
+    {
+      "id": "3",
+      "title": "UX Research Assistant",
+      "description": "Investiga necesidades de usuarios y mejora la experiencia.",
+      "technologies": [
+        "Figma",
+        "Entrevistas",
+        "Análisis UX"
+      ],
+      "budget": 500,
+      "datePublished": "2025-05-10",
+      "companyId": "1"
+    },
+    {
+      "id": "4",
+      "title": "Desarrollador Backend Junior",
+      "description": "Implementa APIs RESTful con Node.js y Express.",
+      "technologies": [
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ],
+      "budget": 1200,
+      "datePublished": "2025-05-13",
+      "companyId": "1"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Rediseño del Website",
+      "manager": "Martin Perez",
+      "status": "En curso",
+      "dueDate": "2025-06-16",
+      "description": "Buscamos un diseñador web para modernizar nuestro sitio corporativo; mejorar la experiencia de usuario, optimizar la navegación y garantizar plena responsividad en todas las disposiciones. Contamos con guía de estilo y contenidos actualizados: se espera entrega de maquetación HTML/CSS limpia y accesible.",
+      "skills": [
+        "Javascript",
+        "HTML",
+        "CSS"
+      ],
+      "members": [
+        "Jair Quijada"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Análisis de la DataBase",
+      "manager": "Laura Manco",
+      "status": "Finalizado",
+      "dueDate": "2025-07-25",
+      "description": "Necesitamos analizar y optimizar nuestra base de datos para mejorar el rendimiento del sistema.",
+      "skills": [
+        "SQL",
+        "MySQL",
+        "Database Design"
+      ],
+      "members": []
+    },
+    {
+      "id": "7853",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "status": "En curso",
+      "dueDate": "2025-06-28",
+      "manager": "Alexander Arnold",
+      "title": "Desarrollo Aplicaciones Web",
+      "description": "Curso enfocada en desarrolladores jovenes para desarrollo de aplicaciones web"
+    }
+  ],
+  "studentPostulations": [
+    {
+      "id": "1",
+      "projectId": "1",
+      "postulationStatus": "en_curso"
+    },
+    {
+      "id": "2",
+      "projectId": "2",
+      "postulationStatus": "finalizado"
+    },
+    {
+      "id": "3b9e",
+      "projectId": "1",
+      "postulationStatus": "pending"
+    }
+  ]
+}
